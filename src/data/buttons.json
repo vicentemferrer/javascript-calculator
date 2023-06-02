@@ -1,0 +1,89 @@
+{
+    "buttonsList": [
+        {
+            "button": "0",
+            "type": "number",
+            "id": "zero"
+        },
+        {
+            "button": "1",
+            "type": "number",
+            "id": "one"
+        },
+        {
+            "button": "2",
+            "type": "number",
+            "id": "two"
+        },
+        {
+            "button": "3",
+            "type": "number",
+            "id": "three"
+        },
+        {
+            "button": "4",
+            "type": "number",
+            "id": "four"
+        },
+        {
+            "button": "5",
+            "type": "number",
+            "id": "five"
+        },
+        {
+            "button": "6",
+            "type": "number",
+            "id": "six"
+        },
+        {
+            "button": "7",
+            "type": "number",
+            "id": "seven"
+        },
+        {
+            "button": "8",
+            "type": "number",
+            "id": "eight"
+        },
+        {
+            "button": "9",
+            "type": "number",
+            "id": "nine"
+        },
+        {
+            "button": "+",
+            "type": "operator",
+            "id": "add"
+        },
+        {
+            "button": "-",
+            "type": "operator",
+            "id": "substract"
+        },
+        {
+            "button": "/",
+            "type": "operator",
+            "id": "divide"
+        },
+        {
+            "button": "*",
+            "type": "operator",
+            "id": "multiply"
+        },
+        {
+            "button": "=",
+            "type": "equal",
+            "id": "equals"
+        },
+        {
+            "button": ".",
+            "type": "decimal",
+            "id": "decimal"
+        },
+        {
+            "button": "AC",
+            "type": "clear",
+            "id": "clear"
+        }
+    ]
+}
