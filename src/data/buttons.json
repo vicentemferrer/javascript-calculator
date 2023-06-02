@@ -58,7 +58,7 @@
         {
             "button": "-",
             "type": "operator",
-            "id": "substract"
+            "id": "subtract"
         },
         {
             "button": "/",

@@ -31,7 +31,8 @@ export const displaySlice = createSlice({
             state.isResultSetted = false
         },
         castDecimal: (state, { payload }) => {
-            if (!state.display.includes(payload)) {
+            const arrCache = state.display.trim().split(/\s[+-/*]\s/)
+            if (!arrCache.every((element) => element.includes(payload))) {
                 state.display += `${payload}`
                 state.isResultSetted = false
             }
@@ -46,7 +47,6 @@ export const displaySlice = createSlice({
         },
         setClear: (state) => {
             state.display = "0"
-            state.isResultSetted = false
         }
     }
 })
