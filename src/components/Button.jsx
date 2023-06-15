@@ -24,6 +24,6 @@ export default function Button({ name, type, id }) {
     }
 
     return (
-        <button id={ id } data-type={ type } onClick={ handleClick }>{ name }</button>
+        <button id={ id } data-type={ type } className={ type } onClick={ handleClick }>{ name }</button>
     )
 }
