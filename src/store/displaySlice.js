@@ -43,6 +43,7 @@ export const displaySlice = createSlice({
             } catch (error) {
                 state.display = `Syntax Error`
             }
+
             state.isResultSetted = true
         },
         setClear: (state) => {

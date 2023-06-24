@@ -8,22 +8,29 @@
 
 .calculator {
   display: grid;
-  grid-template-columns: repeat(4, 70px);
-  grid-template-rows: repeat(6, 70px);
+  grid-template-columns: repeat(4, 85px);
+  grid-template-rows: repeat(6, 75px);
   grid-auto-flow: row;
   border-radius: 8px;
   overflow: hidden;
   padding: 20px;
+  gap: 5px;
 }
 
 #display {
   grid-column: 1/5;
   height: 50px;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: right;
-  padding: .25em .25em;
+  padding: .25em;
   border-radius: 8px;
   align-self: center;
+  overflow: hidden;
+}
+
+#display p {
+  margin: 0;
+  font-family: monospace;
 }
 
 button {

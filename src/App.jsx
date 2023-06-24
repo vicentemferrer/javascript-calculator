@@ -9,13 +9,13 @@ function App() {
      <Button key = {id} name = {button} type = {type} id = {id} />
     ))
   
-  const display = useSelector((state) => state.display)
+  const { display } = useSelector((state) => state.display)
 
   return (
     <div className="App">
       <div className='calculator'>
         <div id='display'>
-          { display.display }
+          <p>{ display }</p>
         </div>
         { arrButtons }
       </div>
